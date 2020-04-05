@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">@color/colorPrimary3</item>
+        <item name="colorAccent">@color/colorDark4</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="text_general">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/space_tiny</item>
+        <item name="android:layout_marginBottom">@dimen/space_tiny</item>
+        <item name="android:paddingLeft">@dimen/space_tiny</item>
+        <item name="android:paddingRight">@dimen/space_tiny</item>
+        <item name="android:textColor">@color/colorDark3</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    <style name="text_h4_bold" parent="text_general">
+        <item name="android:textSize">@dimen/font_size_h4</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text_h4_regular" parent="text_general">
+        <item name="android:textSize">@dimen/font_size_h4</item>
+    </style>
+    <style name="text_smallbody_bold" parent="text_general">
+        <item name="android:textSize">@dimen/font_size_smallbody</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text_smallbody_regular" parent="text_general">
+        <item name="android:textSize">@dimen/font_size_smallbody</item>
+    </style>
+    <!--=================== INPUT COMMON STYLES ===================-->
+    <style name="input_general">
+        <item name="android:layout_marginTop">@dimen/input_margintop</item>
+        <item name="android:layout_marginRight">@dimen/input_marginright</item>
+        <item name="android:layout_marginBottom">@dimen/input_marginbottom</item>
+        <item name="android:layout_marginLeft">@dimen/input_marginleft</item>
+        <item name="android:paddingLeft">@dimen/input_paddingleft</item>
+        <item name="android:paddingRight">@dimen/input_paddingright</item>
+    </style>
+    <!--=================== EDITTEXT GENERAL STYLES ===================-->
+    <style name="edittext_general" parent="input_general">
+        <item name="android:layout_height">@dimen/input_height_single</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/input_field</item>
+        <item name="android:textSize">@dimen/input_font_size</item>
+        <item name="android:textColor">@color/colorDark1</item>
+        <item name="android:textColorHint">@color/colorDark1</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <!--<item name="android:lineHeight">@dimen/input_lineheight</item>-->
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="edittext_user" parent="input_general">
+        <item name="android:layout_height">@dimen/input_height_single</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/input_font_size</item>
+        <item name="android:textColor">@color/colorDark4</item>
+        <item name="android:textColorHint">@color/colorDark4</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <!--<item name="android:lineHeight">@dimen/input_lineheight</item>-->
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="edittext_password" parent="input_general">
+        <item name="android:layout_height">@dimen/input_height_single</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/input_font_size</item>
+        <item name="android:textColor">@color/colorDark4</item>
+        <item name="android:textColorHint">@color/colorDark4</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <!--<item name="android:lineHeight">@dimen/input_lineheight</item>-->
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    <!--=================== TEXTINPUT PASSWORD STYLES ===================-->
+    <style name="textinputlayout_single" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawableLeft">@drawable/ic_lock_pwd</item>
+    </style>
+
+    <style name="edittext_singleline" parent="edittext_general">
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

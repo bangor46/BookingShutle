@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_large">24dp</dimen>
+    <dimen name="space_medium">16dp</dimen>
+    <dimen name="space_mini">2dp</dimen>
+    <dimen name="space_small">8dp</dimen>
+    <dimen name="space_tiny">4dp</dimen>
+    <dimen name="space_xlarge">32dp</dimen>
+    <dimen name="space_xxlarge">48dp</dimen>
+    <dimen name="space_zero">0dp</dimen>
+
+    <dimen name="font_size_basebody">16sp</dimen>
+    <dimen name="font_size_h1">32sp</dimen>
+    <dimen name="font_size_h2">26sp</dimen>
+    <dimen name="font_size_h3">22sp</dimen>
+    <dimen name="font_size_h4">18sp</dimen>
+    <dimen name="font_size_hero">42sp</dimen>
+    <dimen name="font_size_smallbody">12sp</dimen>
+
+    <!--=================== INPUT COMMON DIMENS ===================-->
+    <dimen name="input_height_single">40dp</dimen>
+    <dimen name="input_height_multiple">88dp</dimen>
+    <dimen name="input_height_spinner_time">48dp</dimen>
+
+    <dimen name="input_margintop">8dp</dimen>
+    <dimen name="input_marginright">16dp</dimen>
+    <dimen name="input_marginbottom">0dp</dimen>
+    <dimen name="input_marginleft">16dp</dimen>
+
+    <dimen name="input_paddingtop">8dp</dimen>
+    <dimen name="input_paddingright">16dp</dimen>
+    <dimen name="input_paddingbottom">8dp</dimen>
+    <dimen name="input_paddingleft">16dp</dimen>
+    <dimen name="input_paddingIcon">8dp</dimen>
+
+    <dimen name="input_font_size">16sp</dimen>
+    <dimen name="input_lineheight">24sp</dimen>
+    <dimen name="input_radius_size">2dp</dimen>
+
+    <dimen name="input_stroke_size">1dp</dimen>
+
+</resources>

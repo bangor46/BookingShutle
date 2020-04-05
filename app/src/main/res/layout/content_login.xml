@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_user_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_user_man1" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edit_user_layout"
+            style="@style/textinputlayout_single"
+            app:errorEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_user_name"
+                style="@style/edittext_user"
+                android:hint="@string/username"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/text_error_user_name"
+            style="@style/text_smallbody_regular"
+            android:layout_marginTop="@dimen/space_zero"
+            android:layout_marginBottom="@dimen/space_zero"
+            android:text="@string/hint_error_user_name"
+            android:textColor="@color/colorStatusCritical"
+            android:visibility="gone"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etPasswordLayout"
+            style="@style/textinputlayout_single"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_password"
+                style="@style/edittext_password"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/text_error_password"
+            style="@style/text_smallbody_regular"
+            android:layout_marginTop="@dimen/space_zero"
+            android:layout_marginBottom="@dimen/space_zero"
+            android:text="@string/hint_error_password"
+            android:textColor="@color/colorStatusCritical"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/text_lupa_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:text="@string/lupa_password"
+            android:textColor="@color/colorLinkButton"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="@dimen/input_marginleft"
+            android:layout_marginEnd="@dimen/input_marginright"
+            android:background="@color/colorPrimary4"
+            android:text="@string/login"
+            android:textColor="@color/colorLight0"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#455a64</color>
+    <color name="colorAccent">#0c0099</color>
+
+    <!--PRIMARY-->
+    <color name="colorPrimary1">#EEB333</color>
+    <color name="colorPrimary2">#E26329</color>
+    <color name="colorPrimary3">#3dbb3a</color>
+    <color name="colorPrimary4">#32cd32</color>
+
+    <!--SECONDARY-->
+    <color name="colorAccent1">#DCA327</color>
+    <color name="colorAccent2">#FFC74F</color>
+    <color name="colorAccent3">#BC450E</color>
+    <color name="colorAccent4">#FF844B</color>
+
+    <!--NEUTRAL GREY-->
+    <color name="colorLight0">#FFFFFF</color>
+    <color name="colorLight1">#F8F8F8</color>
+    <color name="colorLight2">#F2F2F2</color>
+    <color name="colorLight3">#EDEDED</color>
+    <color name="colorLight4">#DADADA</color>
+    <color name="colorDark1">#999999</color>
+    <color name="colorDark2">#777777</color>
+    <color name="colorDark3">#555555</color>
+    <color name="colorDark4">#333333</color>
+
+    <!--STATUS-->
+    <color name="colorDisabled">#CCCCCC</color>
+    <color name="colorStatusOk">#00C781</color>
+    <color name="colorStatusWarning">#FFC74F</color>
+    <color name="colorStatusCritical">#FF4040</color>
+    <color name="colorLinkButton">#3789B8</color>
+    <color name="colorSeparator">#C8C7CC</color>
+    <color name="colorTransparant">#80000000</color>
+
+</resources>
